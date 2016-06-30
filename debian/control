@@ -1,0 +1,13 @@
+Source: blankon-theme-greeter
+Section: misc
+Priority: optional
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Vcs-Git:git@gitlab.com:cho2/blankon-theme-greeter.git
+
+Package: blankon-theme-greeter
+Architecture: all
+Depends: ${misc:Depends}, blankon-avatar, lightdm-webkit-greeter
+Description: BlankOn Login Screen Greeter 
+ BlankOn theme greeter for LightDM, developed by BlankOn project.
